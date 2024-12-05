@@ -11,7 +11,7 @@ type UaaHandler interface {
 type uaa struct {
 }
 
-func NewUaaHandler() UaaHandler {
+func newUaaHandler() UaaHandler {
 	return &uaa{}
 }
 
